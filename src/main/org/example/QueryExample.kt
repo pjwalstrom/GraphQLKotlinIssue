@@ -4,7 +4,7 @@ import org.example.generated.MyFirstQuery
 import org.example.generated.MySecondQuery
 
 fun main() {
-    val foo = MySecondQuery.Bar("qux")
-    val bar = MyFirstQuery.Bar("qux")
-    check(foo == bar)
+    val bar1 = MyFirstQuery.Bar("qux")
+    val bar2 = MySecondQuery.Bar("qux")
+    check(bar1::class == bar2::class)
 }
