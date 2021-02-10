@@ -1,4 +1,4 @@
-package com.example
+package org.example
 
 import org.example.generated.MyFirstQuery
 import org.example.generated.MySecondQuery

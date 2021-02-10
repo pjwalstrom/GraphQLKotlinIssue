@@ -1,5 +1,5 @@
 type Query {
-    foo(id: ID!): Bar
+    foo: Bar
 }
 
 type Bar {
